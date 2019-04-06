@@ -1,0 +1,4 @@
+data collection\n
+Mumbai Hamilton Hartford Austin y
+Brooklyn Queens Dallas Phoenix y
+Dallas Austin Dallas Chicago y

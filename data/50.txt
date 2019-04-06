@@ -1,0 +1,4 @@
+data collection\n
+Hamilton Austin Boston Bangalore y
+Queens Bronx Manhattan LosAngeles y
+SanAntonio Charlotte Indianapolis SanAntonio n

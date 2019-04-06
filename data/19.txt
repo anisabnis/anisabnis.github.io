@@ -1,0 +1,4 @@
+data collection\n
+Queens Manhattan Charlotte Bronx y
+SanFrancisco Houston Dallas Indianapolis y
+    

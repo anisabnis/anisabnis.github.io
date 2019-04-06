@@ -1,0 +1,4 @@
+data collection\n
+Dallas FortWorth Columbus SanAntonio y
+SanJose SanDiego SanFrancisco Indianapolis y
+SanFrancisco Austin Phoenix Philadelphia y

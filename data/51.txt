@@ -1,0 +1,3 @@
+data collection\n
+SanFrancisco SanJose SanDiego Indianapolis y
+Phoenix NewYork Charlotte SanJose 

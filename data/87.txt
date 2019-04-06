@@ -1,0 +1,4 @@
+data collection\n
+Queens Philadelphia Queens Chicago y
+Charlotte Brooklyn Houston Austin y
+Philadelphia Charlotte SanFrancisco LosAngeles 

@@ -1,0 +1,4 @@
+data collection\n
+Bronx Brooklyn Austin LosAngeles y
+Philadelphia Brooklyn SanFrancisco Phoenix n
+Brooklyn Manhattan SanAntonio Chicago y

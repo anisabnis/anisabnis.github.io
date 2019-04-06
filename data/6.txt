@@ -1,0 +1,3 @@
+data collection\n
+FortWorth Houston FortWorth Austin y
+SanDiego Manhattan Phoenix Charlotte n

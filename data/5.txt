@@ -1,0 +1,4 @@
+data collection\n
+    n
+Manhattan Philadelphia Queens Columbus y
+Phoenix Houston Manhattan SanDiego 

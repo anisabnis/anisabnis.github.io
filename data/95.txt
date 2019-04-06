@@ -1,0 +1,3 @@
+data collection\n
+Brooklyn NewYork Columbus Bronx y
+SanFrancisco Columbus Chicago NewYork n

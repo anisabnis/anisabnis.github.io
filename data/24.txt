@@ -1,0 +1,5 @@
+data collection\n
+Trenton Mumbai Austin Hyderabad n
+Indianapolis SanDiego Philadelphia Manhattan n
+Columbus Austin SanFrancisco Dallas y
+Manhattan SanJose Indianapolis LosAngeles 

@@ -1,0 +1,4 @@
+data collection\n
+Boston  LosAngeles Bangalore y
+LosAngeles Cambridge Trenton Bangalore y
+Dallas Bronx Jacksonville SanAntonio y

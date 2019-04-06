@@ -1,0 +1,5 @@
+data collection\n
+NewYork Manhattan Brooklyn FortWorth y
+Queens Houston NewYork SanDiego y
+Phoenix Bronx FortWorth Charlotte n
+Charlotte SanFrancisco Brooklyn Phoenix 
