@@ -11,6 +11,7 @@
   <style>
     body {
       font-family: 'Inter', sans-serif;
+      background-color: whitesmoke;
     }
     .container {
       max-width: 900px;
@@ -20,20 +21,21 @@
     header {
       display: flex;
       flex-wrap: wrap;
-      align-items: center;
+      align-items: flex-start;
       margin-bottom: 2em;
     }
     #photo {
-      width: 200px;
+      width: 180px;
       height: auto;
       border-radius: 8px;
-      margin-left: auto;
-      margin-right: 0;
+      margin-left: 2em;
+      margin-top: 0.5em;
     }
     h2 {
       margin-top: 2em;
       border-bottom: 2px solid #ddd;
       padding-bottom: 0.2em;
+      font-weight: 600;
     }
     ul {
       padding-left: 1.5em;
@@ -56,12 +58,22 @@
 <body>
   <div class="container">
     <header>
-      <div>
+      <div style="flex: 1 1 60%;">
         <h1>Anirudh Sabnis</h1>
         <p>
-          Architect at Akamai Technologies. Ph.D. from UMass Amherst under Prof. Ramesh Sitaraman.
+          I currently work as an Architect at Akamai Technologies, where I build cost-performance models for Akamai's edge caches and develop systems for traffic allocation across edge clusters.
         </p>
-        <p><strong>Contact:</strong> sabnisanirudh@gmail.com</p>
+        <p>
+          I completed my Ph.D. from the 
+          <a href="https://www.cics.umass.edu/">College of Information and Computer Sciences</a> at the University of Massachusetts Amherst, advised by 
+          <a href="https://groups.cs.umass.edu/ramesh/">Prof. Ramesh Sitaraman</a>, and was a member of the 
+          <a href="https://groups.cs.umass.edu/ramesh/lids-lab">LIDS Lab</a>.
+        </p>
+        <p>
+          Prior to that, I earned my undergraduate degree from 
+          <a href="https://infotech.nitk.ac.in/">NITK Surathkal</a> in 2012 and worked at Akamai as a Software Engineer from 2012 to 2015.
+        </p>
+        <p><strong>Contact Email:</strong> sabnisanirudh@gmail.com</p>
       </div>
       <img src="./asabnis.jpg" alt="Anirudh Sabnis" id="photo" />
     </header>
@@ -90,19 +102,19 @@
       <h2>Conference Publications</h2>
       <ul>
         <li><strong>StarCDN: Moving Content Delivery Networks to Space</strong><br>
-          Willim Zheng, Aryan Taneja, Maheela Masood, <strong>Anirudh Sabnis</strong>, et al. <br>
+          Willim Zheng, Aryan Taneja, Maheela Masood, Anirudh Sabnis, Ramesh Sitaraman, Deepak Vasisht<br>
           ACM Sigcomm 2025
         </li>
 
         <li><strong>JEDI: Model-driven Trace Generation for Cache Simulations</strong><br>
-          <strong>Anirudh Sabnis</strong>, Ramesh Sitaraman<br>
+          Anirudh Sabnis, Ramesh Sitaraman<br>
           IMC 2022<br>
           [<a href="https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/2022/11/JEDI.pdf">Paper</a>] 
           [<a href="https://github.com/UMass-LIDS/Jedi">Tool</a>]
         </li>
 
         <li><strong>Tragen: A Synthetic Trace Generator for Realistic Cache Simulations</strong><br>
-          <strong>Anirudh Sabnis</strong>, Ramesh Sitaraman<br>
+          Anirudh Sabnis, Ramesh Sitaraman<br>
           IMC 2021<br>
           [<a href="https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/2021/10/imc2021-final270.pdf">Paper</a>] 
           [<a href="https://github.com/UMass-LIDS/Tragen">Tool</a>] <br>
@@ -110,26 +122,26 @@
         </li>
 
         <li><strong>C2DN: How to Harness Erasure Codes at the Edge for Efficient Content Delivery</strong><br>
-          Juncheng Yang, <strong>Anirudh Sabnis</strong>, et al. <br>
+          Juncheng Yang, Anirudh Sabnis, Daniel S. Berger, Rashmi Vinayak, Ramesh Sitaraman<br>
           NSDI 2022<br>
           [<a href="https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/2022/03/nsdi22fall-final146.pdf">Paper</a>]
         </li>
 
         <li><strong>GRADES: Gradient Descent for Similarity Caching</strong><br>
-          <strong>Anirudh Sabnis</strong>, et al. <br>
+          Anirudh Sabnis, Tareq Si Salem, Giovanni Neglia, Michele Garetto, Emilio Leonardi, Ramesh Sitaraman<br>
           INFOCOM 2021<br>
           [<a href="https://groups.cs.umass.edu/ramesh/wp-content/uploads/sites/3/2021/06/a139-sabnis.pdf">Paper</a>]
         </li>
 
         <li><strong>OCCAM: An Optimization-Based Approach to Network Inference</strong><br>
-          <strong>Anirudh Sabnis</strong>, et al. <br>
+          Anirudh Sabnis, Ramesh Sitaraman, Donald Towsley<br>
           SIGMETRICS 2018<br>
           [<a href="https://arxiv.org/abs/1806.03542">arXiv</a>], 
           [<a href="https://www.sigmetrics.org/mama/2018/abstracts/Sabnis.pdf">Proceedings</a>]
         </li>
 
         <li><strong>MON: Mission-optimized Overlay Networks</strong><br>
-          Bruce Spang, <strong>Anirudh Sabnis</strong>, et al. <br>
+          Bruce Spang, Anirudh Sabnis, Ramesh Sitaraman, Donald Towsley, Brian Decleene<br>
           INFOCOM 2017<br>
           [<a href="https://people.cs.umass.edu/~ramesh/Site/PUBLICATIONS_files/final-infocom.pdf">Proceedings</a>]
         </li>
@@ -140,7 +152,7 @@
       <h2>Journal Publications</h2>
       <ul>
         <li><strong>GRADES: Gradient Descent for Similarity Caching</strong><br>
-          <strong>Anirudh Sabnis</strong>, et al. <br>
+          Anirudh Sabnis, Tareq Si Salem, Giovanni Neglia, Michele Garetto, Emilio Leonardi, Ramesh Sitaraman<br>
           Transactions on Networking (ToN) 2022
         </li>
       </ul>
@@ -150,7 +162,7 @@
       <h2>Patents</h2>
       <ul>
         <li><strong>System and method for inferring a network topology from the edge</strong><br>
-          Briane Decleene, <strong>Anirudh Sabnis</strong>, et al. <br>
+          Briane Decleene, Anirudh Sabnis, Ramesh Sitaraman, Donald Towsley, Paul Vines<br>
           Patent No. 11290363
         </li>
       </ul>
